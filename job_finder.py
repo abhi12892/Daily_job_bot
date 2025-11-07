@@ -16,8 +16,11 @@ COMPANY_DOMAINS = [
 ]
 
 KEYWORDS = [
-    '"software engineer" "hiring"','"software developer" "hiring"',
-    '"full stack engineer" "job"','"backend engineer" "job"'
+    '"software engineer" "hiring" (India OR Remote OR Fresher OR "Entry Level")',
+    '"software developer" "job" (India OR Remote OR Fresher OR "Entry Level")',
+    '"full stack developer" "job" (India OR Remote OR Fresher OR "Graduate Trainee")',
+    '"backend engineer" (India OR Remote OR Fresher)',
+    '"software intern" (India OR Remote)'
 ]
 
 def bing_search(q):
